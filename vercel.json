@@ -1,5 +1,5 @@
 {
-  "installCommand": "npm install --foreground-scripts && node node_modules/esbuild/install.js",
+  "installCommand": "npm install --foreground-scripts && node node_modules/esbuild/install.js && chmod -R 755 node_modules/.bin",
   "buildCommand": "npm run build",
   "outputDirectory": "dist"
 }
