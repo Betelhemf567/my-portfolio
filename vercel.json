@@ -1,1 +1,5 @@
-{"installCommand":"npm install","buildCommand":"npx vite build"}
+{
+  "installCommand": "npm install --foreground-scripts",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
+}
